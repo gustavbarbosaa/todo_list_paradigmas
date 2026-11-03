@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-blue-500: #1e40af;
+  --color-blue-600: #1e3a8a;
+  --color-blue-700: #1e3a8a;
+  --color-blue-500-hover: #1e3b8a30;
+
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+
+  --color-red-500: #ef4444;
+  --color-red-500-hover: #ef444430;
+
+  --color-green-500: #22c55e;
+  --color-green-500-hover: #22c55e30;
+}
+
+.container {
+  max-width: 43rem;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  font-family: 'JetBrains Mono', monospace;
+  background-color: var(--color-gray-100);
+}

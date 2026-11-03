@@ -1,0 +1,66 @@
+.listagem-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid var(--color-gray-200);
+
+  .listagem-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    #nomeTarefa {
+      width: 100%;
+      height: 100%;
+      padding: 0.25rem 0.5rem;
+      border-radius: 5px;
+      border: 1px solid var(--color-blue-500);
+    }
+
+    .listagem-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2rem;
+      width: 2rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 5px;
+      background-color: var(--color-blue-500);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--color-blue-700);
+      }
+    }
+  }
+
+  .listagem-filter {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-gray-200);
+    
+    .listagem-filter-item {
+      display: flex;
+      gap: .5rem;
+      padding-bottom: 1rem;
+
+      .listagem-filter-span {
+        color: var(--color-gray-700);
+
+        &:hover {
+          cursor: pointer;
+          font-weight: bold;
+          color: var(--color-blue-500);
+        }
+      }
+      
+    }
+  }
+}

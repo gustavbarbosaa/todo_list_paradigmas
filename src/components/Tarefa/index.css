@@ -1,0 +1,15 @@
+.tarefa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: .5rem 0;
+
+  .tarefa-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+  }
+}
